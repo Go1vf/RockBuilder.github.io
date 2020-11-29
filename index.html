@@ -5,17 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Rock Cracker</title>
         <link rel="stylesheet" href="style.css">
-        <script language="JavaScript" type="text/javascript" src="<?php echo get_option('siteurl') ?>/js/sprinkle.js"></script>
-        <script language="JavaScript" type="text/javascript" src="<?php echo get_option('siteurl') ?>/js/jquery-1.2.6.min.js"></script>
-        <script language="JavaScript" type="text/javascript" src="<?php echo get_option('siteurl') ?>/js/jquery-ui-personalized-1.5.2.packed.js"></script>
-        <script type="text/javascript" src=main.js></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     </head>
     <body>
         <div id="box">
             <div id="head">
                 <p class="tit">Rock Cracker!</p>
                 <p class="intro">Click these rocks before they touch the ground.</p>
-                <input type= "button" id = "but" value= "Start" name = "best"/>
+                <input type= "button" id = "but" value= "Start" name = "best" onclick = "run()"/>
             </div>
             <div id="main">
                 <div class="board">
@@ -26,5 +23,6 @@
                 </div>
             </div>
         </div>
+        <script src="main.js"></script>
     </body>
 </html>

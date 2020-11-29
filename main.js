@@ -1,3 +1,5 @@
 var Head = document.getElementById('head');
-var main = document.getElementById('main');
-var Input = $("input[name='best']").val();
+var Input = Head.getElementsByTagName('input')[0];
+function run() {
+    Input.value = 'In Progress';
+}
