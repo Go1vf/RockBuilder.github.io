@@ -9,20 +9,21 @@
     </head>
     <body>
         <div id="box">
-            <div id="head">
-                <p class="tit">Rock Cracker!</p>
-                <p class="intro">Click these rocks before they touch the ground.</p>
-                <input type= "button" id = "but" value= "Start" name = "best" onclick = "run()"/>
+            <div id="upper">
+                <p class="tit">Space Cowboy</p>
+                <p class="intro">Defeat these aliens before they land on the earth.</p>
+                <input type= "button" id = "but" value= "Start" name = "best" onclick = "run()" />
             </div>
             <div id="main">
                 <div class="board">
                     <p>Your score: <span>0</span></p>
                 </div>
                 <div class="content" onselectstart="return false">
-                    <img οndragstart="return false" />
+                    <img id ="wow" οndragstart="return false" />
                 </div>
             </div>
         </div>
+        <script src ="index.js"></script>
         <script src="main.js"></script>
     </body>
 </html>

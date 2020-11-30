@@ -10,7 +10,7 @@ body{
     /*border:2px solid;
     border-radius: 20px;*/
 }
-#head{
+#upper{
     width:100%;
     height:200px;
 }
@@ -76,4 +76,13 @@ body{
     overflow:hidden;
     position:relative;
     border-bottom: 2px solid black;
+}
+#wow {
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
 }
