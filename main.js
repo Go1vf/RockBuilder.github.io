@@ -25,6 +25,13 @@ var Input = format('upper').getElementsByTagName('input')[0];//button;
                         Span.num = 0;
                         Span.innerHTML = Span.num;
                         Alien.style.display = "none";
+                    } else if (Span.num > 8) {
+                        Input.value = 'Start';
+                        Input.disabled = false;
+                        alert('You win');
+                        Span.num = 0;
+                        Span.innerHTML = Span.num;
+                        Alien.style.display = "none";
                     } else {
                         auto();
                     }
