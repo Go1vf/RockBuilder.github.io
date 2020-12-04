@@ -1,5 +1,5 @@
 body{
-    background-color:beige;
+    background-image: url(backgroundwith.jpg);
 }
 #box{
     width: 800px;
@@ -21,6 +21,7 @@ body{
     font-family: fantasy;
     font-size: 30px;
     text-align: center;
+    ;
 }
 .intro{
     width:100%;
